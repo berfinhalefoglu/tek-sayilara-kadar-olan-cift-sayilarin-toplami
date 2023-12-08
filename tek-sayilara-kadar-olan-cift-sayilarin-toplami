@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class teksayigirisleri {
+    public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int girilensayi=scanner.nextInt();
+    int counter=0;
+        counter=counter+girilensayi;
+        while(girilensayi % 2 == 0){
+            System.out.println("tek bir sayı girin");
+            girilensayi=scanner.nextInt();
+        }
+        System.out.println("girdiğiniz cift sayiların toplamı:"+counter);
+
+    
+}
+}
