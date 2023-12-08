@@ -1,0 +1,1 @@
+# tek-sayilara-kadar-olan-cift-sayilarin-toplami
